@@ -1,0 +1,19 @@
+  body {
+    background-color: #f0f0f0;
+  }
+
+  @font-face {
+    font-family: 'TitilliumWeb';
+    src: url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+  }
+  text {
+    font-size: 8px;
+    font-family: TitilliumWeb,Ubunto,Futura,Helvetica;
+    weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+
+  svg { border: 1px dotted lightgray; }
+
+  p { border: 4px solid gray; }

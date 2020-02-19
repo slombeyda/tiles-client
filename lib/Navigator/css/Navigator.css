@@ -1,0 +1,43 @@
+
+svg.navigator {
+    border: 0px #848480 dotted;
+    background-color: #484848;
+    display: inline-block;
+}
+
+rect._navigator_base_image {
+    fill: #303032;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+rect._navigator_viewer_window {
+    fill: none;
+    stroke: #2080a0;
+    stroke-width: 2px;
+}
+
+div.navigator_controls {
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+}
+input.navigator_input {
+    border-top-right-radius: 2px;
+    width:  54px;
+    height: 18px;
+    padding: 0 2px 0 2px;
+    margin: 0 0 0 0;
+    color: black;
+}
+
+h5.navigator_controls_subtitle {
+    font-size: 9px;
+    color: white;
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 8px 0 0 0;
+    font-weight: 200;
+    line-height: 8px;
+    text-transform: uppercase;
+}

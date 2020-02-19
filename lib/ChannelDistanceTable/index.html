@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="Content-Security-Policy" content="script-src  * 'unsafe-inline' 'unsafe-eval' 'self' data: ws: http: https: wws: file://*;">
+<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' 'self' data: ws: http: https: wws: file://*;">
+<meta http-equiv="Content-Security-Policy" content="connect-src * 'unsafe-inline' 'unsafe-eval' 'self' data: ws: http: https: wws: file://*;">
+<meta http-equiv="Content-Security-Policy" content="img-src     * 'unsafe-inline' 'unsafe-eval' 'self' data: ws: http: https: wws: file://*;">
+<meta http-equiv="Content-Security-Policy" content="child-src   * 'unsafe-inline' 'unsafe-eval' 'self' data: ws: http: https: wws: file://*;">
+
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700">
+
+<script src="../../js/libs/d3.js"></script>
+<script src="data/comparison.results.js"></script>
+
+<link rel="stylesheet" href="css/ChannelDistanceTable.css">
+
+<script src="js/ChannelDistanceTable.js"></script>
+
+<body>
+  <svg id=maincanvas width=320 height=300></svg>
+</body>
+<script>
+  var chmux= new ChannelDistanceTable('maincanvas');
+  chmux.loaddata(comparisondata);
+</script>
+</html>

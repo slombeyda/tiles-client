@@ -1,0 +1,27 @@
+
+svg.SimpleSlider {
+    background-color: #646464;
+    user-select: none;
+    -webkit-user-select: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: none;
+    border: 0px solid white;
+}
+
+svg.SimpleHSlider {
+    cursor: col-resize;
+    display: block;
+    vertical-align: top;
+}
+
+svg.SimpleVSlider {
+    cursor: row-resize;
+    vertical-align: top;
+    display: inline-block;
+}
+
+rect.SimpleSlider_SliderKnob {
+    fill: #2080a0;
+    stroke:gray;
+}
